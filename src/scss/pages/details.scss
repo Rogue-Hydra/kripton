@@ -1,0 +1,23 @@
+.m-poster {
+  display: inline-block;
+  width: 30%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 5%;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.details {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.overlay {
+  background-image: url("../images/bruh.jpg");
+}

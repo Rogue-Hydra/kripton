@@ -1,0 +1,26 @@
+{
+  "name": "kripton",
+  "version": "1.0.0",
+  "description": "An application for displaying a nice frontend for various programs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/rogue-hydra/kripton",
+  "author": {
+    "name": "Rogue-Hydra",
+    "email": "mail@rogue-hydra.tech"
+  },13=
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "latest"
+  },
+  "dependencies": {
+    "cheerio": "latest",
+    "fanart.tv": "latest",
+    "home-path": "latest",
+    "imagesloaded": "latest",
+    "jquery": "latest",
+    "request": "latest"
+  }
+}

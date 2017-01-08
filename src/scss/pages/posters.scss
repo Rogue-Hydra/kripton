@@ -1,0 +1,40 @@
+.posters {
+  margin-top: 47px;
+  background-color: #191919;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+}
+.poster {
+  cursor: pointer;
+  width: calc(100% / 8);
+  border: 2px solid #191919;
+  &:hover {
+    -webkit-filter: brightness(75%);
+    border: 2px solid #fff;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 1920px) {
+  .poster {
+    width: calc(100% / 6);
+  }
+}
+@media (max-width: 1280px) {
+  .poster {
+    width: calc(100% / 4);
+  }
+}
+@media (max-width: 720px) {
+  .poster {
+    width: calc(100% / 2);
+  }
+}
